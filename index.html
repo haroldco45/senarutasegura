@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENA Ruta Segura</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo-sena">SENA <span>CTPGA</span></div>
+            <h1>Ruta del Bus</h1>
+            <p class="tagline">Seguridad, Comodidad y Puntualidad</p>
+        </header>
+
+        <section class="next-bus-card">
+            <div class="status-badge">Próxima Salida</div>
+            <div id="countdown" class="timer">--:--:--</div>
+            <p id="next-stop-info">Cargando horarios...</p>
+        </section>
+
+        <section class="route-list">
+            <h3><i class="fas fa-map-marker-alt"></i> Paradas de la Ruta</h3>
+            <ul id="stops-container">
+                </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 <strong>Vibras Positivas HM</strong></p>
+            <p class="credits">Desarrollo Profesional | Software Protegido</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
